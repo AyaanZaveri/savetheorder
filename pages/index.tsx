@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     },
     {
       restaurant: "Pizza Hut",
-      logo: "https://cdn.worldvectorlogo.com/logos/pizza-hut-4.svg",
+      logo: "https://www.logo.wine/a/logo/Pizza_Hut/Pizza_Hut-Logo.wine.svg",
     },
     {
       restaurant: "Popeyes",
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
     },
     {
       restaurant: "McDonald's",
-      logo: "https://cdn.worldvectorlogo.com/logos/mcdonalds-7.svg",
+      logo: "https://www.logo.wine/a/logo/McDonald's/McDonald's-Logo.wine.svg",
     },
     {
       restaurant: "Tim Hortons's",
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
                 <img
                   src={restaurant.logo}
                   alt=""
-                  className="pointer-events-none h-32 p-5"
+                  className="pointer-events-none h-32 p-4"
                 />
               </div>
             </button>
