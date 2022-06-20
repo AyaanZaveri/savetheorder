@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         <HiSearch className="pointer-events-none h-4 w-4 left-8 relative transform text-slate-500" />
         <input
           type="text"
-          className="w-1/3 rounded-lg pl-10 rounded-tr-3xl border border-slate-200 text-slate-600 px-4 py-2 shadow-xl shadow-slate-50 outline-none ring-slate-200 transition duration-500 ease-in-out hover:border-slate-300 hover:shadow-slate-100 focus:border-slate-400 focus:ring active:bg-slate-100 active:ring"
+          className="w-1/3 rounded-lg pl-10 rounded-tr-3xl border border-slate-200 text-slate-500 px-4 py-2 shadow-xl shadow-slate-50 outline-none ring-slate-200 transition duration-500 ease-in-out hover:border-slate-300 hover:shadow-slate-100 focus:border-slate-400 focus:ring active:bg-slate-100 active:ring"
           placeholder="Search your restaurants..."
           onChange={(e) => setSearch(e.target.value)}
         />
